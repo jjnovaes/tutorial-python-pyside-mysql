@@ -123,6 +123,7 @@ class Cargo(QtWidgets.QMainWindow, Ui_TelaCargo):
         self.lineEditEmail.clear()
         self.lineEditLogin.clear()
         self.lineEditSenha.clear()
+        self.item_selecionado = ""
 
 # app = QtWidgets.QApplication(sys.argv)
 # window = Tecnico()
