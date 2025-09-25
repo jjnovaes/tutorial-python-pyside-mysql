@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaPrincipal</class>
+ <widget class="QMainWindow" name="TelaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema gerenciador de chamados</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionCargo"/>
+    <addaction name="actionFuncionario"/>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+    <addaction name="actionSobre"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCargo">
+   <property name="text">
+    <string>Cargo</string>
+   </property>
+  </action>
+  <action name="actionSobre">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DialogQuestion"/>
+   </property>
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionFuncionario">
+   <property name="text">
+    <string>Funcionário</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
