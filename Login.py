@@ -48,6 +48,7 @@ class Login(QtWidgets.QMainWindow, Ui_TelaLogin):
         except Exception as erro:
             QtWidgets.QMessageBox.critical(self,"Atenção", "Ocorreu um erro ao validar")
             print('Erro:', erro)
+            print('teste')
 
 app = QtWidgets.QApplication(sys.argv)
 window = Login()
